@@ -1,0 +1,4 @@
+Exposure (conditional)	OR (95% CI)	P value	No. SNPs	Interpretation
+BMI	1.47 (1.37–1.57)	2.0 × 10⁻27	467	Positive control; robust direct effect
+Coffee intake	0.82 (0.65–1.04)	0.099	14	Univariable nominal signal attenuated to null
+Sugar added to tea	0.99 (0.81–1.22)	0.959	1	Uninformative (single joint instrument)

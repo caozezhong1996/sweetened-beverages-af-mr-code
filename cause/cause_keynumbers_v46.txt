@@ -1,0 +1,11 @@
+n_merged_variants	5000
+n_fit_variants	5000
+sharing_eta	0.16 (-0.21, 0.5)
+sharing_q	0.04 (0, 0.23)
+causal_gamma	0.01 (-0.01, 0.04)
+causal_eta	0.02 (-0.4, 0.48)
+causal_q	0.03 (0, 0.24)
+delta_elpd_sharing_vs_causal	0.0698378461996674
+se_delta_elpd	0.818408411362251
+z	0.0853337346367463
+p_causal_better_than_sharing	0.534001963513957

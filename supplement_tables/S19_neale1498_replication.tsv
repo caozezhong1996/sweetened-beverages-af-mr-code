@@ -1,0 +1,8 @@
+Analysis	Method	No. SNPs	Beta	SE	OR (95% CI)	P
+Neale 1498 replication	Inverse variance weighted	24	0.1682	0.1215	1.18 (0.93-1.50)	0.166
+Neale 1498 replication	Weighted median	24	0.1113	0.1253	1.12 (0.87-1.43)	0.375
+Neale 1498 replication	MR Egger	24	0.0973	0.2582	1.10 (0.66-1.83)	0.710
+Neale 1498 replication	Weighted mode	24	0.0386	0.1205	1.04 (0.82-1.32)	0.752
+Neale 1498, palindromic SNPs excluded	Inverse variance weighted	21	0.1965	0.1253	1.22 (0.95-1.56)	0.117
+Primary analysis (ukb-b-5237)	Inverse variance weighted	34	0.2347	0.1120	1.26 (1.02-1.57)	0.036
+Cross-GWAS meta-analysis	Fixed effect	-	0.2042	0.0823	1.23 (1.04-1.44)	0.013

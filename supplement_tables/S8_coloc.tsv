@@ -1,0 +1,4 @@
+Locus (lead coffee SNP)	Region (500-kb window)	SNPs (Nielsen merge)	PP.H1 coffee only (AFGen)	PP.H1 coffee only (Nielsen)	PP.H4 shared (AFGen)	PP.H4 shared (Nielsen)	PP.H1 coffee only (FinnGen R13)	PP.H4 shared (FinnGen R13)
+CYP1A1–CYP1A2, 15q24 (rs2472297)	chr15:74,777,880–75,277,880	1160	0.966	0.957	0.004	0.005	—	—
+AHR, 7p21 (rs4410790)	chr7:17,034,577–17,534,577	1702	0.961	0.931	0.004	0.008	—	—
+FTO, 16q12 (rs1421085)	chr16:53,550,954–54,050,954	1738	0.572	0.022	0.362	0.894	1.5 × 10⁻⁷ (n=1675)	0.906

@@ -1,0 +1,11 @@
+Quantity	Value
+Merged HM3 variants (coffee intake vs AF, Nielsen 2018)	1,081,418
+Variants in CAUSE model fit (exposure P < 1e-3)	5,000
+Sharing model eta (correlated-pleiotropy effect)	0.16 (-0.21 to 0.50)
+Sharing model q (fraction of variants with pleiotropy)	0.04 (0 to 0.23)
+Causal model gamma (causal effect, Z units)	0.01 (-0.01 to 0.04)
+Causal model eta (residual pleiotropy, Z units)	0.02 (-0.40 to 0.48)
+Causal model q	0.03 (0 to 0.24)
+Model comparison, delta ELPD (SE), sharing vs causal	0.070 (0.818)
+z statistic (ELPD comparison)	0.085
+P value (causal model fits better than sharing)	0.534

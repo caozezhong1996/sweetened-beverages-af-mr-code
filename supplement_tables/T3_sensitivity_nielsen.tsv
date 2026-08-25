@@ -1,0 +1,8 @@
+Exposure	Weighted median, OR (95% CI), P	MR-Egger, OR (95% CI), P	Egger intercept P	Cochran Q P	MR-PRESSO global P
+Sugar added to tea	0.93 (0.72–1.21), 0.593	0.75 (0.37–1.52), 0.435	0.562	0.011	—
+Sugar added to coffee	0.93 (0.73–1.20), 0.594	1.29 (0.67–2.47), 0.463	0.251	0.018	—
+Fizzy drink intake (SSB)	1.02 (0.71–1.46), 0.934	0.94 (0.38–2.30), 0.898	0.931	0.295	—
+Low-calorie drink intake (ASB)	1.01 (0.84–1.22), 0.922	1.01 (0.76–1.33), 0.96	0.87	0.574	—
+Artificial sweetener added to tea	0.93 (0.67–1.27), 0.641	1.39 (0.82–2.37), 0.249	0.108	0.914	—
+Coffee intake	1.16 (0.89–1.51), 0.264	1.12 (0.73–1.74), 0.603	0.544	0.0009	0.002 (2 outliers; corrected P = 0.20)
+Tea intake	0.92 (0.75–1.13), 0.422	1.25 (0.76–2.05), 0.389	0.162	3.5 × 10⁻8	—

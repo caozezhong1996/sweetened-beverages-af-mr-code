@@ -1,0 +1,15 @@
+Quantity	Estimate	SE	P
+Observed IVW effect (per SD)	0.0279	0.0183	0.128
+Corrected effect (per SD)	0.0371	0.0233	0.111
+Test of difference (corrected - observed)	-1.8118	-	0.070
+MR-Egger intercept P	-	-	0.703
+Instruments used by MRlap	25 (523 candidates P < 5e-8, 500-kb distance pruning)	-	-
+LDSC SNP heritability, exposure (coffee)	0.0501	0.0040	-
+LDSC intercept, exposure	1.0056	-	-
+LDSC SNP heritability, outcome (AF)	0.0240	0.0020	-
+LDSC intercept, outcome	1.0453	-	-
+Cross-trait genetic covariance	0.0012	0.0010	-
+Cross-trait rg	0.0351	-	-
+Cross-trait LDSC intercept (overlap metric)	-0.0104	0.0057	-
+Estimated polygenicity (exposure)	0.0040	-	-
+Per-SNP heritability (exposure)	1.1e-05	-	-

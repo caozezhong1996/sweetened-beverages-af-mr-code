@@ -1,0 +1,5 @@
+p-value testing that causal model is a better fit:  0.53 
+Posterior medians and  95 % credible intervals:
+     model     gamma                eta                 q               
+[1,] "Sharing" NA                   "0.16 (-0.21, 0.5)" "0.04 (0, 0.23)"
+[2,] "Causal"  "0.01 (-0.01, 0.04)" "0.02 (-0.4, 0.48)" "0.03 (0, 0.24)"

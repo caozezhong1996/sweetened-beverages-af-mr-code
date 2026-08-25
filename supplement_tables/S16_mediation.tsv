@@ -1,0 +1,11 @@
+Component	Analysis	Method	No. SNPs	Beta	SE	P
+Total effect	Coffee intake -> AF (Nielsen 2018)	IVW (random effects)	34	0.2347	0.1120	0.036
+Step 1 (X->M)	Coffee intake -> BMI (Yengo 2018, GCST006900)	IVW	17	0.8202	0.3036	0.0069
+Step 2 (M->Y)	BMI -> AF (Nielsen 2018)	IVW	701	0.3428	0.0265	2.2e-38
+Indirect effect	product beta_XM x beta_MY (log OR per intake category)	delta method	-	0.2811	0.1063	-
+Proportion mediated	indirect / total (95% CI -0.231 to 2.627)	delta method	-	1.198	0.729	0.1004
+Direct effect	total - indirect	-	-	-0.0464	-	-
+Step 1 sensitivity (X->M)	Coffee intake -> BMI (Neale UKB 21001, kg/m2)	IVW	33	3.5873	0.9522	1.6e-04
+Step 1 sensitivity (X->M, SD)	Coffee intake -> BMI (Neale 21001, per 4.8 kg/m2 SD)	IVW	33	0.7473	0.1984	1.6e-04
+Indirect effect sensitivity	product beta_XM x beta_MY (Neale 21001)	delta method	-	0.2562	0.0708	-
+Proportion mediated sensitivity	indirect / total (95% CI -0.088 to 2.271)	delta method	-	1.091	0.602	0.0697

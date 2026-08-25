@@ -1,0 +1,28 @@
+Exposure	Method	No. SNPs	Beta	SE	P
+Coffee intake	Inverse variance weighted	34	+0.4800	0.2355	0.0415
+Coffee intake	Weighted median	34	+0.3535	0.2943	0.2297
+Coffee intake	MR Egger	34	+0.6045	0.4721	0.2096
+Tea intake	Inverse variance weighted	32	-0.1384	0.2213	0.5318
+Tea intake	Weighted median	32	+0.3018	0.2517	0.2306
+Tea intake	MR Egger	32	+0.4621	0.4565	0.3195
+Sugar added to tea	Inverse variance weighted	16	-0.6759	0.2088	0.0012
+Sugar added to tea	Weighted median	16	-0.6343	0.2812	0.0241
+Sugar added to tea	MR Egger	16	-1.3687	0.6517	0.0543
+Sugar added to coffee	Inverse variance weighted	15	+0.0717	0.2823	0.7995
+Sugar added to coffee	Weighted median	15	+0.3530	0.2850	0.2155
+Sugar added to coffee	MR Egger	15	+0.6124	0.5405	0.2776
+Fizzy drink intake (SSB)	Inverse variance weighted	8	-0.0338	0.3110	0.9134
+Fizzy drink intake (SSB)	Weighted median	8	+0.2006	0.4172	0.6306
+Fizzy drink intake (SSB)	MR Egger	8	-0.4328	0.7915	0.6042
+Low-calorie drink intake (ASB)	Inverse variance weighted	16	+0.0571	0.1513	0.7062
+Low-calorie drink intake (ASB)	Weighted median	16	+0.1589	0.2110	0.4516
+Low-calorie drink intake (ASB)	MR Egger	16	-0.2189	0.2666	0.4255
+Artificial sweetener added to tea	Inverse variance weighted	14	+0.0334	0.3358	0.9208
+Artificial sweetener added to tea	Weighted median	14	+0.1145	0.3560	0.7478
+Artificial sweetener added to tea	MR Egger	14	+0.7828	0.7279	0.3034
+Alcohol intake frequency (control)	Inverse variance weighted	92	+0.1861	0.0922	0.0435
+Alcohol intake frequency (control)	Weighted median	92	+0.1325	0.1385	0.3385
+Alcohol intake frequency (control)	MR Egger	92	+0.6533	0.2831	0.0233
+Alcoholic drinks per week (control)	Inverse variance weighted	32	+0.0086	0.2870	0.9761
+Alcoholic drinks per week (control)	Weighted median	32	-0.1509	0.3145	0.6314
+Alcoholic drinks per week (control)	MR Egger	32	-0.3828	0.6648	0.5691
