@@ -1,5 +1,7 @@
 # Sweetened Beverages and Atrial Fibrillation — MR Analysis Code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22099675.svg)](https://doi.org/10.5281/zenodo.22099675)
+
 Analysis and manuscript-build code for:
 
 > **Sweetened Beverage Consumption and Risk of Atrial Fibrillation: A Two-Sample and Multivariable Mendelian Randomization Study With Cross-Ancestry Replication**
@@ -79,4 +81,6 @@ Known environment notes (documented in the revision record): CAUSE was added in 
 
 ## Citation
 
-If you use this code, cite the manuscript (details to be added upon publication).
+If you use this code, cite the manuscript (details to be added upon publication) and the archived code:
+
+Cao Z, Chen R. sweetened-beverages-af-mr-code: analysis code for "Sweetened Beverage Consumption and Risk of Atrial Fibrillation: A Two-Sample and Multivariable Mendelian Randomization Study With Cross-Ancestry Replication" [Computer software]. Zenodo. 2026. https://doi.org/10.5281/zenodo.22099675
