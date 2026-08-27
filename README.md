@@ -1,10 +1,9 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22099676.svg)](https://doi.org/10.5281/zenodo.22099676)
 # Sweetened Beverages and Atrial Fibrillation — MR Analysis Code
 
 Analysis and manuscript-build code for:
 
 > **Sweetened Beverage Consumption and Risk of Atrial Fibrillation: A Two-Sample and Multivariable Mendelian Randomization Study With Cross-Ancestry Replication**
-> Manuscript v4.5.6 (formatted for the *European Journal of Preventive Cardiology*), 25 August 2026.
+> Manuscript v4.5.6 (formatted for the *European Journal of Preventive Cardiology*), 27 August 2026.
 
 ## Overview
 
@@ -20,6 +19,7 @@ Two-sample Mendelian randomization (MR) of genetically proxied intake of sugar-s
 - MRlap correction for sample overlap, winner's curse and weak instruments (Table S17; v4.5.3);
 - atrioventricular-block negative outcome control (Table S18; v4.5.3);
 - independent coffee-exposure GWAS replication (Neale field 1498) with cross-GWAS meta-analysis (Table S19; v4.5.4);
+- early-onset AF sensitivity analysis (Choi et al., JAMA 2018; GWAS Catalog GCST010636, TOPMed freeze 4 WGS; score-test statistics converted to effect estimates, beta = Score/Var; Table S20; v4.5.6);
 - cross-trait LD Score regression (LDSC) genetic correlations with same-trait validation controls;
 - statistical power from realized IVW standard errors.
 
@@ -32,6 +32,7 @@ Two-sample Mendelian randomization (MR) of genetically proxied intake of sugar-s
 | AF replication | FinnGen release R13 (67,783 cases / 241,269 controls) |
 | AF legacy sensitivity | Roselli C et al., Nat Genet 2018 (AFGen) |
 | AF cross-ancestry | Ishigaki K et al. (BBJ), Nat Genet 2020; Yuan S et al., Nat Commun 2025 (GWAS Catalog GCST90624413; per-variant statistics not public) |
+| AF early-onset sensitivity | Choi SH et al., JAMA 2018 (GWAS Catalog GCST010636; TOPMed freeze 4 WGS; 2,781 cases / 4,959 controls, European ancestry) |
 | Adiposity / smoking / alcohol covariates | Yengo L et al. 2018 (GIANT BMI); Liu M et al. 2019 (GSCAN) |
 | LDSC reference | Bulik-Sullivan BK et al., Nat Genet 2015 (1000 Genomes European LD scores) |
 
@@ -44,7 +45,7 @@ R/                  R analysis scripts (chronological v4.0 -> v4.5.1)
 python/             aggregation, LDSC munging, figure scripts (Python 3)
 docx_build/         manuscript/supplement/cover-letter docx-js build scripts,
                     v4.5 and v4.5.1 transform scripts, and verify_v45.py
-supplement_tables/  TSV tables rendered into the supplement (S1-S14, T2-T5)
+supplement_tables/  TSV tables rendered into the supplement (S1-S20, T2-T5)
 ```
 
 ## Reproduction pipeline
@@ -59,7 +60,8 @@ supplement_tables/  TSV tables rendered into the supplement (S1-S14, T2-T5)
 7b. **CAUSE** — `R/run_v46_cause.R` (causal vs correlated-pleiotropy model on the same munged HM3 inputs used for LDSC). CAUSE (jean997/cause@master, v1.2.0.0335) is not on CRAN; obtain the source, apply the two compatibility patches in `cause/` (readr `write_tsv(file=)` in `gwas_format.R`; loo ≥ 2.5 `loo_compare()` data.frame API in `in_sample_elpd_loo.R`), then load with `devtools::load_all()`. See `cause/cause_summary_coffee_v46.txt` for the expected output.
 8. **LDSC** — `python/munge_for_ldsc.py` then `R/run_v44_ldsc.R`; forest plot via `python/figureS2_ldsc_rg_v45.py`.
 9. **Tables / figures** — `python/aggregate_supplement_v4.py` (supplement TSVs), `python/figure1_design_v4.py`, `python/forest_figure2_v4.py`, `python/forest_v4.py`, `python/graphical_abstract_v45.py`.
-10. **Manuscript build** — `docx_build/transform_to_v45.py` → `transform_to_v451.py` → `transform_to_v452.py` (edit docx-js sources with asserted anchors and Vancouver auto-renumbering), then build each `build_*_v45.js` with a docx-js toolchain, then `python verify_v45.py` (machine checks: word limits, citation order 1–28 in document flow, key numbers, table counts). All 28 references are verified against PubMed with `python/check_refs_pubmed.py` (E-utilities; DOI-aware for epub-ahead-of-print items); the v4.5.6 insertion of the AHA 2026 scientific statement as ref 7 used the one-shot renumbering script `python/renumber_refs_v456.py`.
+9b. **Early-onset AF sensitivity** — `python/eoaf_sensitivity.py` (instrument lookup in the GCST010636 score-test summary statistics by chromosome:position; effect estimates recovered as beta = Score/Var, SE = Var^-1/2; IVW / bootstrap weighted median / MR-Egger; results in `python/eoaf_sensitivity_results.csv`, SNP-level data in `eoaf_harmonised_snps.csv`).
+10. **Manuscript build** — `docx_build/transform_to_v45.py` → `transform_to_v451.py` → `transform_to_v452.py` (edit docx-js sources with asserted anchors and Vancouver auto-renumbering), then build each `build_*_v45.js` with a docx-js toolchain, then `python verify_v45.py` (machine checks: word limits, citation order 1–29 in document flow, key numbers, table counts). All 29 references are verified against PubMed with `python/check_refs_pubmed.py` (E-utilities; DOI-aware for epub-ahead-of-print items); the v4.5.6 insertion of the AHA 2026 scientific statement as ref 7 used the one-shot renumbering script `python/renumber_refs_v456.py`.
 
 ## Software requirements
 
@@ -77,6 +79,4 @@ Known environment notes (documented in the revision record): CAUSE was added in 
 
 ## Citation
 
-If you use this code, please cite both the manuscript (details to be added upon publication) and the archived code:
-
-Cao Z, Chen R. sweetened-beverages-af-mr-code: v4.5.6 — analysis code for "Sweetened Beverage Consumption and Risk of Atrial Fibrillation" [Computer software]. Zenodo. 2026. https://doi.org/10.5281/zenodo.22099676
+If you use this code, cite the manuscript (details to be added upon publication).
