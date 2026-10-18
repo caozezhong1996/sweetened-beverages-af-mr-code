@@ -1,0 +1,5 @@
+id.exposure,id.outcome,outcome,exposure,method,nsnp,b,se,pval
+paraxanthine,GCST006061,AF (Nielsen 2018),Plasma paraxanthine (Chen 2023),Inverse variance weighted,7,-0.0189304529435126,0.0253034646582451,0.454377650261952
+paraxanthine,GCST006061,AF (Nielsen 2018),Plasma paraxanthine (Chen 2023),MR Egger,7,-0.0026414782097967,0.0271711757418942,0.926331362748718
+paraxanthine,GCST006061,AF (Nielsen 2018),Plasma paraxanthine (Chen 2023),Weighted median,7,-0.0171404422278971,0.026681786539567,0.520611977852335
+paraxanthine,GCST006061,AF (Nielsen 2018),Plasma paraxanthine (Chen 2023),Weighted mode,7,-0.0231445174173915,0.0315768859666124,0.491216003887413

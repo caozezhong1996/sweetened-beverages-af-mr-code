@@ -1,0 +1,3 @@
+SNP,effect_allele.exposure,other_allele.exposure,effect_allele.outcome,other_allele.outcome,beta.exposure,beta.outcome,eaf.exposure,eaf.outcome,remove,palindromic,ambiguous,id.outcome,se.outcome,pval.outcome,samplesize.outcome,outcome,se.exposure,pval.exposure,samplesize.exposure,exposure,id.exposure,action,SNP_index,mr_keep
+rs56113850,C,T,C,T,-0.111197,0.0085446,0.573947,0.564912,FALSE,FALSE,FALSE,finngen_R13_I9_AF,0.00878267,0.330606,309052,AF (FinnGen R13),0.0159364,3.00367e-12,7840,Plasma paraxanthine (Chen 2023),paraxanthine,2,1,TRUE
+rs756359351,A,G,A,G,-1.08081,0.454566,0.0016656,0.000274508,FALSE,FALSE,FALSE,finngen_R13_I9_AF,0.289948,0.11694,309052,AF (FinnGen R13),0.195739,3.35768e-08,7840,Plasma paraxanthine (Chen 2023),paraxanthine,2,1,TRUE

@@ -1,0 +1,4 @@
+exposure	condF	conventional_threshold	n_harmonised_snps	note
+Coffee intake	5.25	10	471	Sanderson-Windmeijer conditional F via MVMR::strength_mvmr; exposure covariance fixed at 0 (package default); instrument set reproduced the published MVMR estimates exactly (b/se identical to 8 decimal places)
+Sugar added to tea	1.27	10	471	Sanderson-Windmeijer conditional F via MVMR::strength_mvmr; exposure covariance fixed at 0 (package default); instrument set reproduced the published MVMR estimates exactly (b/se identical to 8 decimal places)
+BMI	7.46	10	471	Sanderson-Windmeijer conditional F via MVMR::strength_mvmr; exposure covariance fixed at 0 (package default); instrument set reproduced the published MVMR estimates exactly (b/se identical to 8 decimal places)

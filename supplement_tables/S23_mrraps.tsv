@@ -1,0 +1,15 @@
+Exposure	Outcome	SNPs (n)	MR-RAPS log-OR	SE	P
+Artificial sweetener added to tea	Nielsen 2018	14	-0.0856	0.1252	0.494
+Artificial sweetener added to tea	FinnGen R13	14	-0.0242	0.1757	0.89
+Coffee intake	Nielsen 2018	34	0.17	0.1061	0.109
+Coffee intake	FinnGen R13	34	0.407	0.2032	0.0452
+Fizzy drink intake (SSB)	Nielsen 2018	8	-0.0811	0.1668	0.627
+Fizzy drink intake (SSB)	FinnGen R13	8	-0.0241	0.1874	0.898
+Low-calorie drink intake (ASB)	Nielsen 2018	17	-0.0107	0.073	0.883
+Low-calorie drink intake (ASB)	FinnGen R13	16	-0.0705	0.1069	0.509
+Sugar added to coffee	Nielsen 2018	15	-0.0182	0.0929	0.845
+Sugar added to coffee	FinnGen R13	15	0.0545	0.1108	0.623
+Sugar added to tea	Nielsen 2018	17	0.0435	0.0924	0.638
+Sugar added to tea	FinnGen R13	16	-0.3658	0.1705	0.0319
+Tea intake	Nielsen 2018	32	-0.0019	0.081	0.982
+Tea intake	FinnGen R13	32	0.0151	0.1602	0.925

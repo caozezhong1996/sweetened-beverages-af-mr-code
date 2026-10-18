@@ -1,0 +1,2 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval
+theobromine,GCST006061,AF (Nielsen 2018),Plasma theobromine (Chen 2023),Inverse variance weighted,2.80456594639556,1,0.0939962807566678

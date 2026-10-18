@@ -1,0 +1,3 @@
+SNP,effect_allele.exposure,other_allele.exposure,effect_allele.outcome,other_allele.outcome,beta.exposure,beta.outcome,eaf.exposure,eaf.outcome,remove,palindromic,ambiguous,id.outcome,se.outcome,pval.outcome,samplesize.outcome,outcome,se.exposure,pval.exposure,samplesize.exposure,exposure,id.exposure,action,SNP_index,mr_keep
+rs2529273,T,C,T,C,0.101541,-0.0413,0.726808,0.7798,FALSE,FALSE,FALSE,GCST006061,0.0159,0.009394,1030836,AF (Nielsen 2018),0.0178971,1.39856e-08,8137,Plasma theobromine (Chen 2023),theobromine,2,1,TRUE
+rs56113850,C,T,C,T,-0.105914,0.0128,0.576193,0.5523,FALSE,FALSE,FALSE,GCST006061,0.0072,0.07642,1030836,AF (Nielsen 2018),0.0155754,1.04562e-11,8137,Plasma theobromine (Chen 2023),theobromine,2,1,TRUE

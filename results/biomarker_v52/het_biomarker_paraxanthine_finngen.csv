@@ -1,0 +1,2 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval
+paraxanthine,finngen_R13_I9_AF,AF (FinnGen R13),Plasma paraxanthine (Chen 2023),Inverse variance weighted,1.51080656674622,1,0.219016052690062

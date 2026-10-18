@@ -1,0 +1,2 @@
+id.exposure,id.outcome,outcome,exposure,egger_intercept,se,pval
+caffeine,GCST006061,AF (Nielsen 2018),Plasma caffeine (Chen 2023),0.0623609557018951,0.0638362841589022,0.400669440092971

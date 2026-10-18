@@ -1,0 +1,2 @@
+id.exposure,id.outcome,outcome,exposure,method,nsnp,b,se,pval
+theobromine,finngen_R13_I9_AF,AF (FinnGen R13),Plasma theobromine (Chen 2023),Inverse variance weighted,2,-0.176465179805461,0.118401570110973,0.136120247257839

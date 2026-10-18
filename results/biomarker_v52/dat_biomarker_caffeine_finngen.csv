@@ -1,0 +1,2 @@
+SNP,effect_allele.exposure,other_allele.exposure,effect_allele.outcome,other_allele.outcome,beta.exposure,beta.outcome,eaf.exposure,eaf.outcome,remove,palindromic,ambiguous,id.outcome,se.outcome,pval.outcome,samplesize.outcome,outcome,se.exposure,pval.exposure,samplesize.exposure,exposure,id.exposure,action,SNP_index,mr_keep
+rs540115894,C,T,C,T,-0.506773,-0.0487292,0.008532,0.00312422,FALSE,FALSE,FALSE,finngen_R13_I9_AF,0.0769596,0.526617,309052,AF (FinnGen R13),0.0852743,2.80098e-09,8005,Plasma caffeine (Chen 2023),caffeine,2,1,TRUE

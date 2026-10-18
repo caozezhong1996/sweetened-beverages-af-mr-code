@@ -1,0 +1,29 @@
+outcome	Quantity	Estimate	SE	P
+Nielsen2018	Observed IVW effect (per SD)	-0.0214	0.0154	0.165
+Nielsen2018	Corrected effect (per SD)	-0.0304	0.0207	0.142
+Nielsen2018	Test of difference (corrected - observed)	1.9054	-	0.057
+Nielsen2018	MR-Egger intercept P	0.039	-	-
+Nielsen2018	Instruments used by MRlap	21 (428 candidates P < 5e-8, 500-kb distance pruning)	-	-
+Nielsen2018	LDSC SNP heritability, exposure	0.0561	0.0037	-
+Nielsen2018	LDSC intercept, exposure	0.9980	-	-
+Nielsen2018	LDSC SNP heritability, outcome	0.0240	0.0020	-
+Nielsen2018	LDSC intercept, outcome	1.0453	-	-
+Nielsen2018	Cross-trait genetic covariance	0.0004	0.0010	-
+Nielsen2018	Cross-trait rg	0.0102	-	-
+Nielsen2018	Cross-trait LDSC intercept (overlap metric)	0.0101	0.0060	-
+Nielsen2018	Estimated polygenicity (exposure)	0.0056	-	-
+Nielsen2018	Per-SNP heritability (exposure)	8.7e-06	-	-
+FinnGenR13	Observed IVW effect (per SD)	-0.0347	0.0361	0.336
+FinnGenR13	Corrected effect (per SD)	-0.0495	0.0485	0.308
+FinnGenR13	Test of difference (corrected - observed)	1.3415	-	0.180
+FinnGenR13	MR-Egger intercept P	0.007	-	-
+FinnGenR13	Instruments used by MRlap	21 (428 candidates P < 5e-8, 500-kb distance pruning)	-	-
+FinnGenR13	LDSC SNP heritability, exposure	0.0561	0.0037	-
+FinnGenR13	LDSC intercept, exposure	0.9980	-	-
+FinnGenR13	LDSC SNP heritability, outcome	0.0887	0.0051	-
+FinnGenR13	LDSC intercept, outcome	1.1956	-	-
+FinnGenR13	Cross-trait genetic covariance	0.0009	0.0019	-
+FinnGenR13	Cross-trait rg	0.0126	-	-
+FinnGenR13	Cross-trait LDSC intercept (overlap metric)	0.0093	0.0066	-
+FinnGenR13	Estimated polygenicity (exposure)	0.0056	-	-
+FinnGenR13	Per-SNP heritability (exposure)	8.7e-06	-	-

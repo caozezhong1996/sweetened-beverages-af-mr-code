@@ -1,0 +1,5 @@
+id.exposure,id.outcome,outcome,exposure,method,nsnp,b,se,pval
+caffeine,GCST006061,AF (Nielsen 2018),Plasma caffeine (Chen 2023),Inverse variance weighted,5,-0.0138357215573524,0.0387371513924601,0.720965061195961
+caffeine,GCST006061,AF (Nielsen 2018),Plasma caffeine (Chen 2023),MR Egger,5,-0.0703233998720742,0.0696002048600357,0.386727981098818
+caffeine,GCST006061,AF (Nielsen 2018),Plasma caffeine (Chen 2023),Weighted median,5,-0.0114602880857941,0.0465167951767523,0.805396738048153
+caffeine,GCST006061,AF (Nielsen 2018),Plasma caffeine (Chen 2023),Weighted mode,5,-0.016484557388872,0.0446983544623544,0.73097079643374
