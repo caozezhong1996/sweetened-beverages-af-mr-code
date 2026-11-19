@@ -2,6 +2,16 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22099675.svg)](https://doi.org/10.5281/zenodo.22099675)
 
+## Current JAHA submission archive
+
+The complete S27-corrected archive for the current manuscript is
+[`sweetened-beverages-af-mr-code-v6.0.0.zip`](sweetened-beverages-af-mr-code-v6.0.0.zip).
+See [`CURRENT_ARCHIVE.md`](CURRENT_ARCHIVE.md) for its contents and
+[`RELEASE_NOTES.md`](RELEASE_NOTES.md) for the v6.0.0 release summary.
+The archive contains current analysis code, harmonized per-variant data,
+submission files, figures, result tables and verification outputs.
+Its SHA256 checksum is recorded in [`SHA256SUMS.txt`](SHA256SUMS.txt).
+
 Analysis and manuscript-build code for:
 
 > **Sweetened Beverage Consumption and Risk of Atrial Fibrillation: A Two-Sample and Multivariable Mendelian Randomization Study With Cross-Ancestry Replication**
