@@ -4,10 +4,10 @@
 
 ## Current JAHA submission archive
 
-The complete S27-corrected archive for the current manuscript is
-[`sweetened-beverages-af-mr-code-v6.0.0.zip`](sweetened-beverages-af-mr-code-v6.0.0.zip).
+The complete pagination-repaired and narrative-calibrated archive for the current manuscript is
+[`sweetened-beverages-af-mr-code-v6.1.0.zip`](sweetened-beverages-af-mr-code-v6.1.0.zip).
 See [`CURRENT_ARCHIVE.md`](CURRENT_ARCHIVE.md) for its contents and
-[`RELEASE_NOTES.md`](RELEASE_NOTES.md) for the v6.0.0 release summary.
+[`RELEASE_NOTES.md`](RELEASE_NOTES.md) for the v6.1.0 release summary.
 The archive contains current analysis code, harmonized per-variant data,
 submission files, figures, result tables and verification outputs.
 Its SHA256 checksum is recorded in [`SHA256SUMS.txt`](SHA256SUMS.txt).
